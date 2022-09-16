@@ -59,6 +59,12 @@
             <artifactId>ruoyi-system</artifactId>
         </dependency>
 
+        <!-- es分词检索模块-->
+        <dependency>
+            <groupId>com.ruoyi</groupId>
+            <artifactId>gdry-elasticsearch</artifactId>
+        </dependency>
+
     </dependencies>
 
 </project>

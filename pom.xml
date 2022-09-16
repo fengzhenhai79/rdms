@@ -186,6 +186,12 @@
                 <version>${ruoyi.version}</version>
             </dependency>
 
+            <!-- es分词检索模块-->
+            <dependency>
+                <groupId>com.ruoyi</groupId>
+                <artifactId>gdry-elasticsearch</artifactId>
+                <version>${ruoyi.version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
@@ -196,6 +202,7 @@
         <module>ruoyi-quartz</module>
         <module>ruoyi-generator</module>
         <module>ruoyi-common</module>
+        <module>gdry-elasticsearch</module>
     </modules>
     <packaging>pom</packaging>
 
